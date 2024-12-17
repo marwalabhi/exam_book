@@ -1,0 +1,23 @@
+{
+  "name": "exam_book",
+  "version": "1.0.0",
+  "description": "User can give exam with the help of this and able to evaluate the answers on submitting the exam.",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marwalabhi/exam_book.git"
+  },
+  "keywords": [
+    "online_exam",
+    "test"
+  ],
+  "author": "Abhishek Marwal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marwalabhi/exam_book/issues"
+  },
+  "homepage": "https://github.com/marwalabhi/exam_book#readme"
+}
