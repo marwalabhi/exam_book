@@ -1,45 +1,60 @@
-.q-ques-cont{
-    border-radius: 8px;
-    width: 95%;
-    margin: auto;
-    border: 1px solid #efefef;
-    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-    margin-bottom: 2vw;
+.q-ques-cont {
+  border-radius: 8px;
+  width: 95%;
+  margin: auto;
+  border: 1px solid #efefef;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  margin-bottom: 2vw;
 }
-.q-ques-lable{
-    padding: 16px;
-    justify-content: space-between;
+.q-ques-lable {
+  padding: 16px;
+  justify-content: space-between;
 }
-.q-mcq-cont-s{
-    margin: 16px 0;
-    list-style: none;
-    padding-left: 0;
+.q-mcq-cont-s {
+  margin: 16px 0;
+  list-style: none;
+  padding-left: 0;
 }
-.q-mcq-input-rad{
-    float: left;
-    opacity: 1;
+.q-mcq-input-rad {
+  float: left;
+  opacity: 1;
 }
-input[type=checkbox], input[type=radio] {
-    margin: 4px 0 0;
-    line-height: normal;
+input[type="checkbox"],
+input[type="radio"] {
+  margin: 8px 0 0;
+  line-height: normal;
 }
-.q-que-hin-eng{
-    margin-left: 10px;
+.q-que-hin-eng {
+  margin-left: 10px;
 }
-.q-marks-each-que{
-    color: green;
-    font-weight: 500;
+.q-marks-each-que {
+  color: green;
+  font-weight: 500;
 }
-.q-que-number-set{
-    font-weight: 700;
+.q-que-number-set {
+  font-weight: 700;
+  margin-bottom: 10px;
+  display: block;
 }
-.q-option-mcq-1{
-    margin-left: 24px;
+.q-hr-line-w {
+  border-bottom: 4px solid gainsboro;
+  margin-top: 5px;
+  width: 13vw;
 }
-.q-label-set-font{
-    padding: 8px 10px;
-    cursor: pointer;
-    border: 1px solid transparent;
-    display: block;
-    margin: 0;
+
+.q-option-mcq-1 {
+  margin-left: 24px;
+}
+.q-label-set-font {
+  padding: 8px 10px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  display: block;
+  margin: 0;
+}
+p{
+  margin-block: 4px;
+}
+ol > li{
+  margin-block: 5px;
 }

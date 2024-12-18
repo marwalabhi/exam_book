@@ -1,0 +1,23 @@
+.e-btn-mcq-cont{
+    position: fixed;
+    bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+.e-mcq-submit-btn{
+    color: white;
+    background-color: #2e3cd8;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    font-weight: 500;
+    /* border: 1px solid #1fbad6; */
+    padding: 5px 15px;
+    width: 18vw;
+    height: 43px;
+}
+.e-mcq-submit-btn:hover {
+    background-color: #0d1bb8;
+}

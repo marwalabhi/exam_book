@@ -30,16 +30,20 @@ const ExamPage = () => {
     fetchExamData();
   }, []);
 
-
   console.log(data);
   console.log(questions);
-  
+
   return (
-    <section className="">
+    <section className="e-back-col-set">
       <div className="">
         {questions.map((que, index) => (
-          <QuestionCard key={que?.id} qdata = {que} count = {index} />
+          <QuestionCard key={que?.id} qdata={que} count={index} />
         ))}
+      </div>
+      <div className="e-btn-mcq-cont">
+        <button className="e-mcq-submit-btn fs-20 f-inclusiveSans" type="submit">
+          Submit Test
+        </button>
       </div>
     </section>
   );
