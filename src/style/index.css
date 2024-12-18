@@ -1,0 +1,45 @@
+/* Global Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  /* background-color: #fcf6f1; */
+}
+.f-poppins {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+.f-montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+}
+.f-inclusiveSans {
+  font-family: "Inclusive Sans", sans-serif;
+  font-style: normal;
+}
+.f-inter {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+}
+.f-imprima {
+  font-family: "Imprima", sans-serif;
+  font-style: normal;
+}
+.fs-20 {
+  font-size: 20px;
+}
+.fs-16 {
+  font-size: 16px;
+}
+.d-flex {
+  display: flex;
+}
+.jus-c-c {
+    justify-content: center;
+}
+.ali-i-c {
+    align-items: center;
+}

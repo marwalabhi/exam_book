@@ -1,0 +1,20 @@
+.h-head-container{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.h-logo-cont{
+    user-select: none;
+}
+.h-logo-pre-de-s{
+    font-size: 35px;
+    font-weight: 500;
+    color: rgb(46, 60, 216);
+}
+.h-logo-post-de{
+    font-size: 30px;
+    font-weight: 500;
+}
+.h-hr-head-s{
+    margin-block: 1rem;
+    border-bottom: 1px solid #d5d5d5;
+}
