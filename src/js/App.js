@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import { Outlet, RouterProvider, createBrowserRouter } from "react-router";
 import ExamPage from "../components/ExamPage/ExamPage";
 import Header from "../components/Header/Header";
+import ResultScreen from "../components/ResultScreen/ResultScreen";
 
 const AppLayout = () => {
     return (
@@ -21,6 +22,10 @@ const AppLayout = () => {
             {
                 path: "/",
                 element: <ExamPage/>,
+            },
+            {
+              path: "/result",
+              element: <ResultScreen/>,
             },
 
         ],
