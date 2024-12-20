@@ -6,7 +6,7 @@ import QuestionCard from "../QuestionCard/QuestionCard.js";
 import useShuffleArray from "../../../utils/useShuffleArray.js";
 
 const ExamPage = () => {
-  // const [shuffleResultScreen, setShuffleResultScreen] = useState([]);
+
   const [questions, setQuestions] = useState([]);
   const [userAnswers, setUserAnswers] = useState({});
 
@@ -41,7 +41,7 @@ const ExamPage = () => {
   // };
 
   const fetchExamData = () => {
-    // setArrayToShuffle(examData?.topics[0]?.segment?.children_order);
+    
     setQuestions(examData?.topics[0].children);
   };
 
@@ -50,7 +50,7 @@ const ExamPage = () => {
   }, []);
 
   const shuffledExamQuestions = useShuffleArray(questions);
-  // setShuffleResultScreen(shuffledExamQuestions);
+  
   
   return (
     <section className="e-back-col-set">

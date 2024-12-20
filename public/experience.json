@@ -1,4 +1,4 @@
-const exam = {
+{
     "id": 1302,
     "name": "RSCIT",
     "access_code": null,
@@ -1521,5 +1521,4 @@ const exam = {
         "text_to_speech": true,
         "enable_folder_view_in_my_assessment": true
     }
-};
-export default exam;
+}
