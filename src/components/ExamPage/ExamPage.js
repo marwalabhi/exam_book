@@ -17,7 +17,6 @@ const ExamPage = () => {
     });
   };
   
-  console.log(userAnswers);
 
   const navigate = useNavigate();
   const handleSubmit = (e) => {

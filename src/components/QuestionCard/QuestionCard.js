@@ -6,7 +6,7 @@ const QuestionCard = ({
   count,
   onAnswerSelect,
   isResultScreen,
-  optionId,
+  corrAnswers,
   userAnswers,
   setMarks,
 }) => {
@@ -22,8 +22,6 @@ const QuestionCard = ({
     onAnswerSelect(qdata.id, evt.target.value);
   };
 
-  // console.log("Option id", optionId.map((val) => val.id));
-  
   return (
     <div className="q-ques-cont">
       <div className="q-ques-lable fs-16 d-flex f-inter">
@@ -45,12 +43,11 @@ const QuestionCard = ({
           <ul className="q-mcq-cont-s">
             {options.map((opt) => {
               const isSelected = userAnswers === opt.id; 
-              const isCorrect = optionId.includes((val) => val.id) === opt.id; 
-                console.log(isCorrect);
-                
+              const isCorrect = isResultScreen && corrAnswers.some((ansRow) => ansRow.includes(opt.id));
+
               return (
                 <li
-                  className={`q-indi-option-fa ${
+                  className={`q-indi-option-fa ${ 
                     isCorrect
                       ? "correct-answer"
                       : isSelected && !isCorrect

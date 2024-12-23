@@ -5,3 +5,23 @@
     font-size: 30px;
     margin-block: 1rem;
 }
+.r-result-cont-a-s{
+    justify-content: center;
+    display: flex;
+}
+.r-scr-resu-cont{
+    position: fixed;
+    bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    /* background-color: rgba(219, 209, 209, 0.3); */
+    height: 4rem;
+    gap: 4rem;
+    border-radius: 8px;
+}
+.r-pass-fail-p{
+    font-size: 33px;
+    letter-spacing: 3px;
+}
