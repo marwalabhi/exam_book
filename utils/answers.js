@@ -189,13 +189,13 @@ const answers = {
                                     },
                                     {
                                         "id": "260KYqKXJLDiXv8f",
-                                        "checked": true,
+                                        "checked": false,
                                         "content": "<p>Mini, Micro and Mainframe</p>",
                                         "placeholder": "Option 3"
                                     },
                                     {
                                         "id": "1ibaKED0W25T3A3b",
-                                        "checked": false,
+                                        "checked": true,
                                         "content": "<p>Web crawling, indexing and searching</p>",
                                         "placeholder": "Option 4"
                                     }
@@ -311,36 +311,36 @@ const answers = {
                     "resource_segment_attributes": null,
                     "question_segment_attributes": {
                         "id": 22206,
-                        "content": "<p>are the processes managed by search engines?</p>",
+                        "content": "<p>You can access social media from computer using:</p>",
                         "hint": null,
                         "answer_explanation": "",
                         "points": null,
                         "teacher_json": {
-                            "json_uuid": "1rqRRbZ2wOj07sAz",
+                            "json_uuid": "rYwIeDzmr6EPa4YV",
                             "segment_data": {
                                 "options": [
                                     {
-                                        "id": "sgPtUuHJ5BF8Jjoc",
+                                        "id": "EtCoxhKd9Ywyy0w9",
                                         "checked": false,
-                                        "content": "<p>Mail merge, compose and draft</p>",
+                                        "content": "<p>Docs, Excel, PPT etc</p>",
                                         "placeholder": "Option 1"
                                     },
                                     {
-                                        "id": "Tfk1HzRYQiMvQuBO",
+                                        "id": "6gpC0zciuHVgyAI9",
                                         "checked": false,
-                                        "content": "<p>Star, bus and mesh</p>",
+                                        "content": "<p>YouTube, Google Play, Outlook etc</p>",
                                         "placeholder": "Option 2"
                                     },
                                     {
-                                        "id": "260KYqKXJLDiXv8f",
-                                        "checked": false,
-                                        "content": "<p>Mini, Micro and Mainframe</p>",
+                                        "id": "P2vruPM7iFMtIIh9",
+                                        "checked": true,
+                                        "content": "<p>Facebook, Instagram, Twitter etc</p>",
                                         "placeholder": "Option 3"
                                     },
                                     {
-                                        "id": "1ibaKED0W25T3A3b",
-                                        "checked": true,
-                                        "content": "<p>Web crawling, indexing and searching</p>",
+                                        "id": "x3U1IR7IUIwRSfI9",
+                                        "checked": false,
+                                        "content": "<p>SSO, PRSY, LPG etc</p>",
                                         "placeholder": "Option 4"
                                     }
                                 ]
@@ -352,27 +352,27 @@ const answers = {
                             "segment_data": {
                                 "options": [
                                     {
-                                        "id": "sgPtUuHJ5BF8Jjoc",
+                                        "id": "EtCoxhKd9Ywyy0w9",
                                         "checked": false,
-                                        "content": "<p>Mail merge, compose and draft</p>",
+                                        "content": "<p>Docs, Excel, PPT etc</p>",
                                         "placeholder": "Option 1"
                                     },
                                     {
-                                        "id": "Tfk1HzRYQiMvQuBO",
+                                        "id": "6gpC0zciuHVgyAI9",
                                         "checked": false,
-                                        "content": "<p>Star, bus and mesh</p>",
+                                        "content": "<p>YouTube, Google Play, Outlook etc</p>",
                                         "placeholder": "Option 2"
                                     },
                                     {
-                                        "id": "260KYqKXJLDiXv8f",
-                                        "checked": false,
-                                        "content": "<p>Mini, Micro and Mainframe</p>",
+                                        "id": "P2vruPM7iFMtIIh9",
+                                        "checked": true,
+                                        "content": "<p>Facebook, Instagram, Twitter etc</p>",
                                         "placeholder": "Option 3"
                                     },
                                     {
-                                        "id": "1ibaKED0W25T3A3b",
+                                        "id": "x3U1IR7IUIwRSfI9",
                                         "checked": false,
-                                        "content": "<p>Web crawling, indexing and searching</p>",
+                                        "content": "<p>SSO, PRSY, LPG etc</p>",
                                         "placeholder": "Option 4"
                                     }
                                 ]

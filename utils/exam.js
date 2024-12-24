@@ -280,7 +280,7 @@ const exam = {
                     "resource_segment_attributes": null,
                     "question_segment_attributes": {
                         "id": 22206,
-                        "content": "<p>are the processes managed by search engines?</p>",
+                        "content": "<p>You can access social media from computer using:</p>",
                         "hint": null,
                         "answer_explanation": "",
                         "points": null,
@@ -290,27 +290,27 @@ const exam = {
                             "segment_data": {
                                 "options": [
                                     {
-                                        "id": "sgPtUuHJ5BF8Jjoc",
+                                        "id": "EtCoxhKd9Ywyy0w9",
                                         "checked": false,
-                                        "content": "<p>Mail merge, compose and draft</p>",
+                                        "content": "<p>Docs, Excel, PPT etc</p>",
                                         "placeholder": "Option 1"
                                     },
                                     {
-                                        "id": "Tfk1HzRYQiMvQuBO",
+                                        "id": "6gpC0zciuHVgyAI9",
                                         "checked": false,
-                                        "content": "<p>Star, bus and mesh</p>",
+                                        "content": "<p>YouTube, Google Play, Outlook etc</p>",
                                         "placeholder": "Option 2"
                                     },
                                     {
-                                        "id": "260KYqKXJLDiXv8f",
+                                        "id": "P2vruPM7iFMtIIh9",
                                         "checked": false,
-                                        "content": "<p>Mini, Micro and Mainframe</p>",
+                                        "content": "<p>Facebook, Instagram, Twitter etc</p>",
                                         "placeholder": "Option 3"
                                     },
                                     {
-                                        "id": "1ibaKED0W25T3A3b",
+                                        "id": "x3U1IR7IUIwRSfI9",
                                         "checked": false,
-                                        "content": "<p>Web crawling, indexing and searching</p>",
+                                        "content": "<p>SSO, PRSY, LPG etc</p>",
                                         "placeholder": "Option 4"
                                     }
                                 ]
@@ -320,7 +320,7 @@ const exam = {
                         "with_extra_answer_box": null,
                         "is_game": false,
                         "question_type": "mcq_single",
-                        "segment_id": 41733,
+                        "segment_id": 41734,
                         "user_id": null,
                         "experience_id": null,
                         "created_at": "2024-12-17T05:56:51.184Z",
@@ -518,7 +518,7 @@ const exam = {
                                     {
                                         "id": "HmJRRZDwpmiOOVsX",
                                         "checked": false,
-                                        "content": "<p>Press the FS key</p>",
+                                        "content": "<p>Press the F5 key</p>",
                                         "placeholder": "Option 1"
                                     },
                                     {
@@ -1202,7 +1202,7 @@ const exam = {
                                     {
                                         "id": "88tMz2Gb0EIdWL2z",
                                         "checked": false,
-                                        "content": "<p>77</p>",
+                                        "content": "<p>67</p>",
                                         "placeholder": "Option 2"
                                     },
                                     {
