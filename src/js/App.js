@@ -4,10 +4,14 @@ import { Outlet, RouterProvider, createBrowserRouter } from "react-router";
 import ExamPage from "../components/ExamPage/ExamPage";
 import Header from "../components/Header/Header";
 import ResultScreen from "../components/ResultScreen/ResultScreen";
+import { useRef } from "react";
+import Test from "../components/test/Test";
+
 
 const AppLayout = () => {
+
     return (
-        <main className="">
+        <main className="" >
           <Header />
           <Outlet />
         </main>
@@ -26,6 +30,10 @@ const AppLayout = () => {
             {
               path: "/result",
               element: <ResultScreen/>,
+            },
+            {
+              path: "/test",
+              element: <Test/>,
             },
 
         ],

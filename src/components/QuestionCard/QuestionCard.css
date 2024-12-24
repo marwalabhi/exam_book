@@ -63,11 +63,13 @@ ol > li{
 .correct-answer {
   background-color: #d4edda; /* Light green */
   border: 1px solid #28a745; /* Green border */
+  margin-bottom: 6px; 
 }
 
 .wrong-answer {
   background-color: #f8d7da; /* Light red */
   border: 1px solid #dc3545; /* Red border */
+  margin-bottom: 6px;
 }
 .highlight-selected{
   background-color: lightblue;
@@ -76,3 +78,4 @@ ol > li{
 .q-mcq-input-rad:disabled + div {
   cursor: not-allowed; /* Optional for disabled inputs */
 }
+

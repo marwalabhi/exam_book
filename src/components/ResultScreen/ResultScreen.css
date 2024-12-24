@@ -1,27 +1,66 @@
-.r-result-scr-head{
-    text-align: center;
-    color: rgb(5, 118, 5);
-    color: rgb(7, 99, 156);
-    font-size: 30px;
-    margin-block: 1rem;
+.r-result-scr-head {
+  text-align: center;
+  color: rgb(5, 118, 5);
+  color: rgb(7, 99, 156);
+  font-size: 30px;
+  margin-block: 1rem;
 }
-.r-result-cont-a-s{
-    justify-content: center;
-    display: flex;
+.r-result-cont-a-s {
+  justify-content: center;
+  display: flex;
 }
-.r-scr-resu-cont{
-    position: fixed;
-    bottom: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 40vw;
-    /* background-color: rgba(219, 209, 209, 0.3); */
-    height: 4rem;
-    gap: 4rem;
-    border-radius: 8px;
+.r-scr-resu-cont {
+  position: fixed;
+  bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40vw;
+  /* background-color: rgba(219, 209, 209, 0.3); */
+  height: 4rem;
+  gap: 4rem;
+  border-radius: 8px;
 }
-.r-pass-fail-p{
-    font-size: 33px;
-    letter-spacing: 3px;
+.r-pass-fail-p {
+  font-size: 33px;
+  letter-spacing: 3px;
+}
+.r-download-pdf-icon {
+  position: absolute;
+  right: 6rem;
+}
+.r-btn-download-pdf {
+  width: 15rem;
+  height: 45px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 8px;
+  background-color: #c6d2fd;
+}
+.r-btn-download-pdf:hover {
+    background-color: #b8c4ee;
+}
+#r-pdf-cont-clone {
+  width: 794px; /* A4 width in pixels at 96 DPI */
+  padding: 20px;
+  margin: 0 auto;
+  background-color: white; /* Ensure background visibility */
+}
+#footer-12-cont{
+  /* visibility: hidden; */
+}
+/* Add page break before each question, if needed */
+.question-card {
+  page-break-before: auto;
+  page-break-after: auto;
+  page-break-inside: avoid;
+}
+.q-total-q-cont {
+  page-break-inside: avoid;
+}
+button.r-btn-download-pdf:disabled {
+  background-color: #ccc;
+  color: #666;
+  cursor: not-allowed;
 }

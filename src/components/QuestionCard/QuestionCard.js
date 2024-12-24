@@ -23,7 +23,7 @@ const QuestionCard = ({
   };
 
   return (
-    <div className="q-ques-cont">
+    <div className="q-ques-cont ">
       <div className="q-ques-lable fs-16 d-flex f-inter">
         <div className="q-indi-que-cont">
           <div className="q-que-content-h3">
