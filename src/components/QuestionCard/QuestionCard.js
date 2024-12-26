@@ -18,8 +18,10 @@ const QuestionCard = ({
   // const shuffledOptions = useShuffleArray(options);
 
   const handleAnswerChange = (evt) => {
+    if(!isResultScreen) {
     setSelectedAnswer(evt.target.value);
     onAnswerSelect(qdata.id, evt.target.value);
+    }
   };
 
   return (
@@ -42,17 +44,14 @@ const QuestionCard = ({
           {/* Options */}
           <ul className="q-mcq-cont-s">
             {options.map((opt) => {
-              const isSelected = userAnswers === opt.id; 
+              const isSelected = isResultScreen && userAnswers === opt?.id; 
               const isCorrect = isResultScreen && corrAnswers.some((ansRow) => ansRow.includes(opt.id));
-
-              return (
+              
+              
+              return (  
                 <li
                   className={`q-indi-option-fa ${ 
-                    isCorrect
-                      ? "correct-answer"
-                      : isSelected && !isCorrect
-                      ? "wrong-answer"
-                      : ""
+                    isSelected ? "user-attempted-highlight" : ""
                   } `}
                   key={opt?.id}
                 >
@@ -63,10 +62,10 @@ const QuestionCard = ({
                       className="q-mcq-input-rad"
                       name={question_segment_attributes?.segment_id}
                       value={opt?.id}
-                      checked={selectedAnswer === opt.id}
+                      checked={isSelected}
                       onChange={handleAnswerChange}
-                      disabled={isResultScreen}
-                      readOnly
+                      
+                      
                     />
                     <div
                       className="q-option-mcq-1"

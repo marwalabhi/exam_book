@@ -71,9 +71,10 @@ ol > li{
   border: 1px solid #dc3545; /* Red border */
   margin-bottom: 6px;
 }
-.highlight-selected{
-  background-color: lightblue;
-  border: 1px solid blue;
+.user-attempted-highlight{
+  background-color: rgb(214, 233, 251);
+  border: 1px solid rgb(153, 195, 250);
+  border-radius: 8px;
 }
 .q-mcq-input-rad:disabled + div {
   cursor: not-allowed; /* Optional for disabled inputs */

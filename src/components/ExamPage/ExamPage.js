@@ -6,9 +6,9 @@ import QuestionCard from "../QuestionCard/QuestionCard.js";
 import useShuffleArray from "../../../utils/useShuffleArray.js";
 
 const ExamPage = () => {
-
   const [questions, setQuestions] = useState([]);
   const [userAnswers, setUserAnswers] = useState({});
+  const [isSubmitted, setIsSubmitted] = useState(false);
 
   const handleAnswerSelect = (questionId, selectedAnswer) => {
     setUserAnswers({
@@ -16,14 +16,21 @@ const ExamPage = () => {
       [questionId]: selectedAnswer,
     });
   };
-  
 
   const navigate = useNavigate();
   const handleSubmit = (e) => {
     e.preventDefault();
-    if(userAnswers)
-    navigate("/result", { state: {shuffledExamQuestions, userAnswers } });
+    navigate("/result", { state: { shuffledExamQuestions, userAnswers } });
   };
+
+  useEffect(() => {
+    if(Object.keys(userAnswers).length === 10) {
+      setIsSubmitted(true);
+    } else {
+      setIsSubmitted(false)
+    }
+  }, [userAnswers]);
+  
 
   // const fetchQuestions = async () => {
   //   try {
@@ -40,7 +47,6 @@ const ExamPage = () => {
   // };
 
   const fetchExamData = () => {
-    
     setQuestions(examData?.topics[0].children);
   };
 
@@ -49,8 +55,7 @@ const ExamPage = () => {
   }, []);
 
   const shuffledExamQuestions = useShuffleArray(questions);
-  
-  
+
   return (
     <section className="e-back-col-set">
       <form onSubmit={handleSubmit}>
@@ -68,6 +73,7 @@ const ExamPage = () => {
           <button
             className="e-mcq-submit-btn fs-20 f-inclusiveSans"
             type="submit"
+            disabled={!isSubmitted}
           >
             Submit Test
           </button>

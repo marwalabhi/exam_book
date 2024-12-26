@@ -184,7 +184,7 @@ const ResultScreen = () => {
                 qdata={que}
                 count={index}
                 userAnswers={userAnswers[que.id]}
-                corrAnswers={correctAnswers} // correct it
+                corrAnswers={correctAnswers} 
                 isResultScreen={true}
                 setMarks={false}
               />
